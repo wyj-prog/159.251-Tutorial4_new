@@ -9,8 +9,8 @@ public class TestCalc {
         assertEquals(2, cn.WilliamWu.Tutorial4.Calc.add(1,1));
     }
 
-//    @Test
-//    public void TestSubtract(){
-//
-//    }
+    @Test
+    public void TestSubtract(){
+        assertEquals(1,cn.WilliamWu.Tutorial4.Calc.subtract(2,1));
+    }
 }
